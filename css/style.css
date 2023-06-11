@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	background: #e6e9ff;
+	margin: 20px;
+}
+ul{
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+h1{
+    text-align: center;
+}
+.join-main{
+    padding: 30px 40px;
+	background: #7386ff;
+}
+.section_index{
+width: 100%;
+background: url('../images/bg.jpg');
+background-position: center;
+padding: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-size: cover;
+height: auto; 
+z-index: 1;
+opacity: .9;
+}
+#divSignUp{
+    max-width: 500px;
+    color: white;
+    margin: 50px auto;
+    background-color: #667aff;
+    padding: 20px;
+    
+}	  
+#divSignUp input , #btnSignUp{	
+	width: 100%;
+    display: block;
+    padding-left: 10px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+} 
+#divSignUp label{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold; 
+}
+div{
+    margin: 10px 0;
+}
+
+#btnSignUp{
+    font-size: 16px;
+    background-color: skyblue;
+    color: #fff;
+}
+
+/* chat css */
+.main {
+    max-width: 1100px;
+	background: #fff;
+	margin: 30px auto;
+	overflow: hidden;
+} 
+.strong{
+    color: white;
+}
+#divUser{
+    padding: 10px 8px;
+    background: rgba(90, 230, 235, 0.932);
+    border-bottom: 1px solid black; 
+    text-align: center;
+    
+    ;
+}
+#messages{
+    padding: 30px;
+	height: 300px;
+	overflow-y: scroll;
+    width: 100%;
+background: url('../images/chat.jpg');
+background-position: center;
+ background-image:;
+background-size: cover;
+}
+#dropContainer{
+   background: rgb(96, 96, 255);
+   height: 109px;
+   color : wheat;
+   padding: 20px;
+   overflow: hidden;
+   box-sizing: border-box;
+   display: block;
+}
+h5{
+    color: white;
+    padding: 5px 13px;
+    font-size: 0.9rem;
+    
+}
+#formFileUpload{
+      margin-top: -27PX;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 10px;
+      margin-bottom: 5px;
+      background: #000;
+}
+  #fileInput{
+    color: white;
+    margin: 2px;
+}
+  input[type="file"]::-webkit-file-upload-button {
+    border: none;
+    background-color: #e7e7e7;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+input#submit {
+      padding: 5px 18px;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+}
+  #formMessage{
+    margin: 2px;
+    display: flex;
+    align-items: stretch;
+    padding: 0 10px;
+}
+#m{
+    width: 100%;
+    border-radius: 4px 0px 0px 4px;
+    border-style: none;
+    padding: 10px 7px;
+    outline: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+button{
+    padding: 0  22px;
+    border-radius: 0px 4px 4px 0px;
+    border-style: none;
+    background: blue;
+    color:#fff;
+    cursor: pointer;
+    user-select: none;
+    font-size: 15px;
+}
+span{
+    font-style: italic;
+    font-size: 10px;
+}
+
+@media (max-width: 700px) {
+	.chat-main {
+		display: block;
+	}
+
+	.chat-sidebar {
+		display: none;
+	}
+}
+#messages li{
+    list-style: none;
+    background-color: #62fff8;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+#messages li:nth-child(Odd){
+    text-align: right;
+}
